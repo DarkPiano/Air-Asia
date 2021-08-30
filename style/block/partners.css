@@ -1,0 +1,42 @@
+.section_partners {
+    background: #fff;
+    color: #1A1B1E;
+    padding: 88px 0;
+}
+
+.section_partners-color {
+    background: #F4F5F5;
+}
+
+.section_title-partners {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 78px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners_item {
+    margin-left: 88px;
+}
+
+.partners_item:nth-child(4n + 1) {
+    margin-left: 0;
+}
+
+.partners_link {
+    text-decoration: none;
+    display: flex;
+    width: 219px;
+    height: 109px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.partners_link:hover {
+    filter: none;
+}

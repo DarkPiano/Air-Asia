@@ -1,0 +1,47 @@
+.section_about {
+    margin-bottom: 40px;
+}
+
+.about {
+    display: flex;
+}
+
+.about_img {
+    /* display: inline-block;
+    vertical-align: top; */
+    width: 490px;
+    height: 505px;
+    border-radius: 5px;
+}
+
+.about_desc {
+    /* display: inline-block;
+    vertical-align: top; */
+    background: url(../../img/About/mountains.png);
+    max-width: 785px;
+    height: 455px;
+    padding: 70px 83px;
+    margin-left: -142px;
+    margin-top: 95px;
+    border-radius: 5px;
+}
+
+.about_title {
+    color: #000;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.about_desc-text {
+    color: #060606;
+    margin-bottom: 89px;
+}
+
+.about_desc-text p {
+    margin-bottom: 20px;
+}
+
+.about_desc-text p:last-child {
+    margin-bottom: 0;
+}

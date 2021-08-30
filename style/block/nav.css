@@ -1,0 +1,25 @@
+/* .menu-nav {
+    position: absolute;
+    top: 41px;
+    left: 164px;
+} */
+
+.menu-nav_item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+
+.menu-nav_item:last-child {
+    margin-right: 0;
+}
+
+.menu-nav_link {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu-nav_link:hover {
+    color: #DA0100;
+}

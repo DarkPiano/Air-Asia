@@ -1,0 +1,18 @@
+.wallpaper {
+    min-height: 363px;
+    background: url(../../img/reviews/couple.png )no-repeat right 29% bottom, url(../../img/reviews/middleline.png) no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wallpaper_content {
+    max-width: 50%;
+}
+
+.wallpaper_title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.1;
+}
